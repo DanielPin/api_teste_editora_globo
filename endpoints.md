@@ -1,8 +1,11 @@
 ## Endpoints
 
 Cadastrar novo usuário
+
 Método: POST
+
 URL: localhost:3000/user
+
 Body: login, password
 
 Exemplo de cadastro:
@@ -16,8 +19,11 @@ Exemplo de cadastro:
 ##
 
 Cadastrar noticia
+
 Método: POST
+
 URL: localhost:3000/noticias
+
 Body: titulo, descricao, dataDePublicacao
 
 Exemplo de cadastro:
@@ -31,7 +37,9 @@ Exemplo de cadastro:
 ##
 
 Listar todas as noticias
+
 Método: GET
+
 URL: localhost:3000/noticias
 
 Exemplo de retorno:
@@ -49,8 +57,11 @@ Exemplo de retorno:
 ##
 
 Listar noticia especifica
+
 Método: GET
+
 URL: localhost:3000/noticias/6251a44b4173c3ea9309a0ed
+
 Parametro: _id
 
 Exemplo de retorno:
@@ -66,9 +77,13 @@ Exemplo de retorno:
 ##
 
 Atualizar noticia
+
 Método: PUT
+
 URL: localhost:3000/noticias/6251a44b4173c3ea9309a0ed
+
 Parametro: _id
+
 Body: titulo, descricao, dataDePublicacao
 
 Exemplo de retorno:
@@ -84,8 +99,11 @@ Exemplo de retorno:
 ##
 
 Deletar noticia
+
 Método: DELETE
+
 URL: localhost:3000/noticias/6251a44b4173c3ea9309a0ed
+
 Parametro: _id
 
 Exemplo de retorno:
