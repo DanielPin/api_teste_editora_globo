@@ -16,36 +16,10 @@ Executar o comando abaixo na pasta raiz do projeto, irá subir a api e o MongoDB
 docker-compose up --build
 ```
 
-Após subir os containers, acessar o container do MongoDB:
-```bash
-docker exec -it mongo bash
-```
-Acessar o MongoDB com o seguinte comando:
-```bash
-mongo
-```
+## Configuração MongoDB
 
-Alterar usuario:
-```bash
-use admin
+[MongoDB](https://github.com/DanielPin/api_teste_editora_globo/blob/main/mongo.md)
 
-db.auth('root', passwordPrompt())
-```
-
-Criar o db teste_editora_globo:
-```bash
-use teste_editora_globo
-```
-
-Criar a coleção users:
-```bash
-db.createCollection("users")
-```
-
-Adicionar user:
-```bash
-db.users.insertOne({ login: "admin", password: "$2b$10$b3lxcXENZf04Y0LVkRREDuMNy6X2.ylsl/7/QbQnQ5OEHfB2tSXEG"})
-```
 
 ## Acesso a api
 Acessar o endpoint localhost:3000/login e fazer login para pegar o token e usar nas requisições:
