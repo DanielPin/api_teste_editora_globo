@@ -2,11 +2,11 @@
 
 Desenvolvido para a posição de desenvolvedor junior
 
-Este repositorio se trata da parte back-end da api.
+Este repositório se trata da parte back-end da api.
 
-Segue repositorio do front-end: 
+Segue repositório do front-end: 
 
-[FRONT-END](https://github.com/DanielPin/api_teste_editora_globo/blob/main/mongo.md)
+[FRONT-END](https://github.com/DanielPin/front_teste_editora_globo)
 
 ## Requisitos para execução
 
