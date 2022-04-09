@@ -1,7 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { Auth } from './auth';
 import { AuthService } from './auth.service';
-import * as bcrypt from 'bcrypt';
 @Controller('login')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
