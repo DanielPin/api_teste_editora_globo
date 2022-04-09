@@ -2,7 +2,7 @@
 
 Desenvolvido para a posição de desenvolvedor junior
 
-Este repositorio se trata da parte back-end a api.
+Este repositorio se trata da parte back-end da api.
 
 Segue repositorio do front-end: 
 
